@@ -1,10 +1,9 @@
 # Kever
-***
 A light node app server framework, based on *koa*.  
 基于 *koa* 的轻型app后台框架
 
-###Usage
-***
+## Usage
+
 *使用中您只需要关注一下目录:*
 >* *Router*　　　　控制器，逻辑处理  
     * 每个文件中的每个函数都是一个路由节点，例如 user.js中有login函数，其访问路径就是 "/user/login"  
@@ -25,8 +24,8 @@ A light node app server framework, based on *koa*.
 * Model 文件夹中
     * 每个文件被转换为一个 model 对象，并自动绑定到 koa 中间件的 "this.model“ 中，在控制器中间件(Router文件夹中的某个函数)中可以随时访问，例如 "/user/login" 验证登陆是需要检查数据库中的数据与提供的参数是否一致，可以使用 `this.model.stuff.login(args)`， `stuff.login` 是 "Model/stuff.js" 中的一个函数。
   
-### License  
-***
+## License  
+
 MIT[^mit]  
 
 
