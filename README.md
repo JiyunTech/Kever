@@ -26,10 +26,5 @@ A light node app server framework, based on *koa*.
   
 ## License  
 
-MIT[^mit]  
-
-
-
-[^mit]: MIT许可证（The MIT License）是许多软件授权条款中，被广泛使用的其中一种。与其他常见的软件授权条款（如GPL、LGPL、BSD）相比，MIT是相对宽松的软件授权条款。
-
+MIT
  
